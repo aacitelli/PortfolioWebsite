@@ -10,7 +10,7 @@ import "../css/ProjectsSectionStyles.css";
 export default function ProjectsSection()
 {
     return (
-        <div>
+        <div id="ProjectsSection">
             Project Component!
         </div>
     )

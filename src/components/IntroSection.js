@@ -10,7 +10,7 @@ import "../css/IntroSectionStyles.css";
 export default function IntroSection()
 {
     return (
-        <div>
+        <div id="IntroSection">
             Intro Component Change!
         </div>
     )    

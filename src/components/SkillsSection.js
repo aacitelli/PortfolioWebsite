@@ -10,7 +10,7 @@ import "../css/SkillsSectionStyles.css";
 export default function SkillsSection()
 {
     return (
-        <div>
+        <div id="SkillsSection">
             Skills Component!
         </div>
     )

@@ -10,7 +10,7 @@ import "../css/ContactSectionStyles.css";
 export default function ContactSection()
 {
     return (
-        <div>
+        <div id="ContactSection">
             Contact Component!
         </div>
     )

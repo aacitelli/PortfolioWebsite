@@ -1,0 +1,4 @@
+[build]
+base = "PortfolioWebsite/"
+publish = "PortfolioWebsite/build/"
+command = "gatsby build"

@@ -1,4 +1,4 @@
 [build]
-base = "PortfolioWebsite/"
-publish = "PortfolioWebsite/build/"
+base = "./"
+publish = "./build/"
 command = "gatsby build"

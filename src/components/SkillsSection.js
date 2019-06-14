@@ -4,5 +4,14 @@ import React from "react";
 // Component Imports
 
 // Style Imports
-import "../css/Universal.css";
+import "../css/UniversalStyles.css";
 import "../css/SkillsSectionStyles.css";
+
+export default function SkillsSection()
+{
+    return (
+        <div>
+            Skills Component!
+        </div>
+    )
+}

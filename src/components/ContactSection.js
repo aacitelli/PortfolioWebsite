@@ -4,5 +4,14 @@ import React from "react";
 // Component Imports
 
 // Style Imports
-import "../css/Universal.css";
+import "../css/UniversalStyles.css";
 import "../css/ContactSectionStyles.css";
+
+export default function ContactSection()
+{
+    return (
+        <div>
+            Contact Component!
+        </div>
+    )
+}

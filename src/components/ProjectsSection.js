@@ -4,5 +4,14 @@ import React from "react";
 // Component Imports
 
 // Style Imports
-import "../css/Universal.css";
-import "../css/ProjectSectionStyles.css";
+import "../css/UniversalStyles.css";
+import "../css/ProjectsSectionStyles.css";
+
+export default function ProjectsSection()
+{
+    return (
+        <div>
+            Project Component!
+        </div>
+    )
+}

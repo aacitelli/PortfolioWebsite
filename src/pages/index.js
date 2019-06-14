@@ -9,4 +9,15 @@ import ContactSection from "../components/ContactSection";
 
 // Style Imports
 
-export default () => <div>Hello world!</div>
+export default () => 
+{
+    return (
+        <div>
+            <IntroSection />
+            <SkillsSection />
+            <ProjectsSection />
+            <ContactSection />
+        </div>   
+    )
+     
+}

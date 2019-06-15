@@ -1,5 +1,6 @@
 // NPM Imports
 import React from "react";
+import { Link } from "gatsby";
 
 // Component Imports
 
@@ -12,11 +13,11 @@ export default function Navbar()
     return (
         <nav id="navbar">
             <ul>
-                <li><a href="https://andenacitelli.com">About</a></li>
-                <li><a href="https://andenacitelli.com/skills">Skills</a></li>
-                <li><a href="https://andenacitelli.com/projects">Projects</a></li>
-                <li><a href="https://andenacitelli.com/blog">Blog</a></li>
-                <li><a href="https://andenacitelli.com/contact">Contact</a></li>
+                <li><Link to="/">About</Link></li>
+                <li><Link to="/skills">Skills</Link></li>
+                <li><Link to="/projects">Projects</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
             </ul>
         </nav>
     )

@@ -14,16 +14,33 @@
 #navbar > ul > li {
   display: inline-block;
   padding: 10px 18px;
-  color: white;
   font-size: 22px;
+  color: white;
+}
+
+#navbar > ul > li :hover {
+  -webkit-animation-name: navbarColorChange;
+          animation-name: navbarColorChange;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes navbarColorChange {
+  to {
+    color: #44a0f4;
+  }
+}
+
+@keyframes navbarColorChange {
+  to {
+    color: #44a0f4;
+  }
 }
 
 #navbar > ul > li a {
   text-decoration: none;
-}
-
-#navbar > ul > li :hover {
-  color: #44a0f4;
 }
 
 /* Applies to 768px and up */

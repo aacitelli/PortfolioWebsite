@@ -12,11 +12,11 @@ export default function Navbar()
     return (
         <nav id="navbar">
             <ul>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Blog</li>
-                <li>Contact</li>
+                <li><a href="https://andenacitelli.com">About</a></li>
+                <li><a href="https://andenacitelli.com/skills">Skills</a></li>
+                <li><a href="https://andenacitelli.com/projects">Projects</a></li>
+                <li><a href="https://andenacitelli.com/blog">Blog</a></li>
+                <li><a href="https://andenacitelli.com/contact">Contact</a></li>
             </ul>
         </nav>
     )

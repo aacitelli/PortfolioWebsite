@@ -11,7 +11,6 @@ export default function ProjectsSection()
 {
     return (
         <div id="ProjectsSection">
-            Project Component!
         </div>
     )
 }

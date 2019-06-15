@@ -11,7 +11,7 @@ export default function IntroSection()
 {
     return (
         <div id="IntroSection">
-            
+            In Progress, check back in a few weeks! Or check out the devel branch of my <a href="github.com/aacitelli/PortfolioWebsite">repo</a> for what I'm currently building!
         </div>
     )    
 }

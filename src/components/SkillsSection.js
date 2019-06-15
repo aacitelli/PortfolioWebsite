@@ -11,7 +11,6 @@ export default function SkillsSection()
 {
     return (
         <div id="SkillsSection">
-            Skills Component!
         </div>
     )
 }

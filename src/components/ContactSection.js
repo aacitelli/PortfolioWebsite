@@ -11,7 +11,6 @@ export default function ContactSection()
 {
     return (
         <div id="ContactSection">
-            Contact Component!
         </div>
     )
 }

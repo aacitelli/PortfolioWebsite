@@ -5,8 +5,8 @@ import { Link } from "gatsby";
 // Component Imports
 
 // Style Imports
-import "../css/UniversalStyles.css";
-import "../css/NavbarStyles.css";
+import "../../css/universal/UniversalStyles.css";
+import "../../css/universal/NavbarStyles.css";
 
 export default function Navbar() 
 {

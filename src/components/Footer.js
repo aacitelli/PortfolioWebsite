@@ -5,13 +5,13 @@ import React from "react";
 
 // Style Imports
 import "../css/UniversalStyles.css";
-import "../css/IntroSectionStyles.css";
+import "../css/FooterStyles.css";
 
-export default function IntroSection()
+export default function Footer() 
 {
     return (
-        <div id="IntroSection">
-            
+        <div id="footer">
+
         </div>
-    )    
+    )
 }

@@ -1,0 +1,23 @@
+/* Universal Styles (Applied to Everything) */
+#navbar {
+  width: 100%;
+  text-align: right;
+  background-color: #181a1b;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#navbar > ul {
+  margin-right: 10px;
+}
+
+#navbar > ul > li {
+  display: inline-block;
+  padding: 18px;
+  color: white;
+  font-size: 22px;
+}
+
+/* Applies to 768px and up */
+/* Applies to 992px and up */
+/* Applies to basically all desktop resolutions */

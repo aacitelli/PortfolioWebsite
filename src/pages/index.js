@@ -2,13 +2,15 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-// Component Imports 
+// Universal Component Imports 
 import Navbar from "../components/universal/Navbar";
+import Footer from "../components/universal/Footer";
+
+// Page-Specific Component Imports
 import IntroSection from "../components/about/IntroSection";
 import SkillsSection from "../components/about/SkillsSection";
 import ProjectsSection from "../components/about/ProjectsSection";
 import ContactSection from "../components/about/ContactSection";
-import Footer from "../components/universal/Footer";
 
 // Style Imports
 

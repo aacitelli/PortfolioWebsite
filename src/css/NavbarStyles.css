@@ -18,6 +18,14 @@
   font-size: 22px;
 }
 
+#navbar > ul > li a {
+  text-decoration: none;
+}
+
+#navbar > ul > li :hover {
+  color: #44a0f4;
+}
+
 /* Applies to 768px and up */
 /* Applies to 992px and up */
 /* Applies to basically all desktop resolutions */

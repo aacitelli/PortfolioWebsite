@@ -22,6 +22,12 @@
         {
             font-size: 2vw;
             margin-bottom: 20px;
+
+            strong 
+            {
+                font-weight: 500;
+                color: rgb(68, 160, 244);
+            }
         }
 
         p:last-of-type

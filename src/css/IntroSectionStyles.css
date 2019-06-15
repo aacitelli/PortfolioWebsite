@@ -24,6 +24,11 @@
   margin-bottom: 20px;
 }
 
+#IntroSection div p strong {
+  font-weight: 500;
+  color: #44a0f4;
+}
+
 #IntroSection div p:last-of-type {
   margin-bottom: 0;
 }

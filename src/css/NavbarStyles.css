@@ -1,19 +1,19 @@
 /* Universal Styles (Applied to Everything) */
 #navbar {
+  padding: 0;
+  margin: 0;
   width: 100%;
   text-align: right;
-  background-color: #181a1b;
-  position: -webkit-sticky;
-  position: sticky;
 }
 
 #navbar > ul {
-  margin-right: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 #navbar > ul > li {
   display: inline-block;
-  padding: 18px;
+  padding: 10px 18px;
   color: white;
   font-size: 22px;
 }

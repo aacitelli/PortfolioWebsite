@@ -7,7 +7,7 @@ import React from "react";
 import Navbar from "../components/universal/Navbar";
 import Footer from "../components/universal/Footer";
 
-// Page-Specific Component Imports
+// Page-Specific Component Imports 
 
 export default () => {
     return (

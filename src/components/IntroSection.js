@@ -11,7 +11,10 @@ export default function IntroSection()
 {
     return (
         <div id="IntroSection">
-            In Progress, check back in a few weeks! Or check out the devel branch of my <a href="https://github.com/aacitelli/PortfolioWebsite">repo</a> for what I'm currently building!
+            <div>Anden Acitelli</div>
+            <p>Hey! I'm a Full-Stack Web Developer and Software Developer based out of Pittsburgh, PA.</p>
+            <p>I build websites with ReactJS and am comfortable in Java, C/C++, and Python.</p>
+            <p>Check out my <a href="/blog">blog</a> or my <a href="https://drive.google.com/open?id=1nlJzHsSkNTlFM0Xu_uAItzb8M-6_duzt">Résumé</a> for more about me! You can get into contact by emailing hello@andenacitelli.com</p> and I'll get back to you as soon as possible. 
         </div>
     )    
 }

@@ -51,8 +51,15 @@ export default function Navbar()
             </ul>
 
             <div>
-                <img alt="Resume Logo" width="35px" height="35px" src={resume}></img>
-                <img alt="GitHub Logo" width="35px" height="35px" src={github}></img>
+                
+                <a href="https://drive.google.com/open?id=1nlJzHsSkNTlFM0Xu_uAItzb8M-6_duzt">
+                    <img alt="Resume Logo" width="35px" height="35px" src={resume} />
+                </a>
+
+                <a href="https://github.com/aacitelli">
+                    <img alt="GitHub Logo" width="35px" height="35px" src={github}></img>
+                </a>
+
             </div>
 
         </nav>

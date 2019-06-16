@@ -72,19 +72,24 @@ $csBlue: rgb(68, 160, 244);
     right: 10px;
 
     background-color: inherit;
-
-    img
+    
+    a
     {
-        display: inline-block;
         background-color: inherit;
-
-        margin-right: 10px;
-
-        :last-of-type
+        
+        img
         {
-            margin-right: 0px;
-        }
-    } 
+            display: inline-block;
+            background-color: inherit;
+
+            margin-right: 10px;
+
+            :last-of-type
+            {
+                margin-right: 0px;
+            }
+        } 
+    }
 }
  
 /* Applies to 768px and up */

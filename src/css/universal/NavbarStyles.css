@@ -71,13 +71,17 @@
   background-color: inherit;
 }
 
-#navbar > div img {
+#navbar > div a {
+  background-color: inherit;
+}
+
+#navbar > div a img {
   display: inline-block;
   background-color: inherit;
   margin-right: 10px;
 }
 
-#navbar > div img :last-of-type {
+#navbar > div a img :last-of-type {
   margin-right: 0px;
 }
 

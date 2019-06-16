@@ -42,56 +42,6 @@
   background-color: #1c1c1c;
 }
 
-@-webkit-keyframes navbarHoverEffect {
-  0% {
-    left: 175px;
-  }
-  100% {
-    left: 0px;
-  }
-}
-
-@keyframes navbarHoverEffect {
-  0% {
-    left: 175px;
-  }
-  100% {
-    left: 0px;
-  }
-}
-
-@-webkit-keyframes navbarHoverReturnEffect {
-  0% {
-    left: 0px;
-  }
-  100% {
-    left: 175px;
-  }
-}
-
-@keyframes navbarHoverReturnEffect {
-  0% {
-    left: 0px;
-  }
-  100% {
-    left: 175px;
-  }
-}
-
-/*
-#navbar > ul > li:hover > #onHoverEffect1 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards; }
-#navbar > ul > li:hover > #onHoverEffect2 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
-#navbar > ul > li:hover > #onHoverEffect3 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
-#navbar > ul > li:hover > #onHoverEffect4 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
-#navbar > ul > li:hover > #onHoverEffect5 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
-
-// Allows the animation to go smoothly back to the beginning instead of instantly resetting
-#navbar > ul > li:not(:hover) > #onHoverEffect1 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: backwards; }
-#navbar > ul > li:not(:hover) > #onHoverEffect2 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards; }
-#navbar > ul > li:not(:hover) > #onHoverEffect3 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
-#navbar > ul > li:not(:hover) > #onHoverEffect4 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
-#navbar > ul > li:not(:hover) > #onHoverEffect5 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
-*/
 #navbar > ul > li {
   background-color: inherit;
   font-size: 22px;

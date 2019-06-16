@@ -1,3 +1,28 @@
+.navbarLink1 {
+  border-right: 10px #44a0f4 solid;
+  padding: 10px 18px;
+}
+
+.navbarLink2 {
+  border-right: 10px #747474 solid;
+  padding: 10px 18px;
+}
+
+.navbarLink3 {
+  border-right: 10px #FF652F solid;
+  padding: 10px 18px;
+}
+
+.navbarLink4 {
+  border-right: 10px #FFE400 solid;
+  padding: 10px 18px;
+}
+
+.navbarLink5 {
+  border-right: 10px #14A76C solid;
+  padding: 10px 18px;
+}
+
 /* Universal Styles (Applied to Everything) */
 #navbar {
   background-color: #191919;
@@ -16,9 +41,7 @@
 
 #navbar > ul > li {
   background-color: inherit;
-  padding: 10px 18px;
   font-size: 22px;
-  border-bottom: 5px #282828 solid;
 }
 
 #navbar > ul > li a {
@@ -48,6 +71,12 @@
   to {
     color: #44a0f4;
   }
+}
+
+#navbar > ul > li .navbarSeparator {
+  height: 5px;
+  width: 100%;
+  background-color: #323232;
 }
 
 /* Applies to 768px and up */

@@ -78,96 +78,20 @@
   }
 }
 
-#navbar > ul > li:hover > #onHoverEffect1 {
-  -webkit-animation-name: navbarHoverEffect;
-          animation-name: navbarHoverEffect;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
+/*
+#navbar > ul > li:hover > #onHoverEffect1 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards; }
+#navbar > ul > li:hover > #onHoverEffect2 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+#navbar > ul > li:hover > #onHoverEffect3 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+#navbar > ul > li:hover > #onHoverEffect4 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+#navbar > ul > li:hover > #onHoverEffect5 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
 
-#navbar > ul > li:hover > #onHoverEffect2 {
-  -webkit-animation-name: navbarHoverEffect;
-          animation-name: navbarHoverEffect;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-#navbar > ul > li:hover > #onHoverEffect3 {
-  -webkit-animation-name: navbarHoverEffect;
-          animation-name: navbarHoverEffect;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-#navbar > ul > li:hover > #onHoverEffect4 {
-  -webkit-animation-name: navbarHoverEffect;
-          animation-name: navbarHoverEffect;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-#navbar > ul > li:hover > #onHoverEffect5 {
-  -webkit-animation-name: navbarHoverEffect;
-          animation-name: navbarHoverEffect;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-#navbar > ul > li:not(:hover) > #onHoverEffect1 {
-  -webkit-animation-name: navbarHoverReturnEffect;
-          animation-name: navbarHoverReturnEffect;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-}
-
-#navbar > ul > li:not(:hover) > #onHoverEffect2 {
-  -webkit-animation-name: navbarHoverReturnEffect;
-          animation-name: navbarHoverReturnEffect;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-#navbar > ul > li:not(:hover) > #onHoverEffect3 {
-  -webkit-animation-name: navbarHoverReturnEffect;
-          animation-name: navbarHoverReturnEffect;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-#navbar > ul > li:not(:hover) > #onHoverEffect4 {
-  -webkit-animation-name: navbarHoverReturnEffect;
-          animation-name: navbarHoverReturnEffect;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-#navbar > ul > li:not(:hover) > #onHoverEffect5 {
-  -webkit-animation-name: navbarHoverReturnEffect;
-          animation-name: navbarHoverReturnEffect;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
+// Allows the animation to go smoothly back to the beginning instead of instantly resetting
+#navbar > ul > li:not(:hover) > #onHoverEffect1 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: backwards; }
+#navbar > ul > li:not(:hover) > #onHoverEffect2 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards; }
+#navbar > ul > li:not(:hover) > #onHoverEffect3 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+#navbar > ul > li:not(:hover) > #onHoverEffect4 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+#navbar > ul > li:not(:hover) > #onHoverEffect5 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+*/
 #navbar > ul > li {
   background-color: inherit;
   font-size: 22px;
@@ -194,6 +118,15 @@
   z-index: 1000;
   left: 175px;
   top: 0px;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+}
+
+#navbar > ul > li :hover + .onHoverEffect, #navbar > ul > li .onHoverEffect:hover {
+  -webkit-transform: translate(-175px, 0);
+          transform: translate(-175px, 0);
 }
 
 #navbar > ul > li #onHoverEffect1 {

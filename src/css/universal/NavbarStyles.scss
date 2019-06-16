@@ -53,6 +53,7 @@ $csBlue: rgb(68, 160, 244);
 // TODO: Make it so starting and stopping don't start from the beginning or end, but rather from where they're currently at 
 // TODO: Make the text stay in front of the animation (Will probably have to store the text in another div with higher z-index than the animation)
 // TODO: Make it so that when you initially load the page it doesn't start with them all extended (this occurs because you aren't hovering, so it executes the "not hovering" animation
+/*
 #navbar > ul > li:hover > #onHoverEffect1 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards; }
 #navbar > ul > li:hover > #onHoverEffect2 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
 #navbar > ul > li:hover > #onHoverEffect3 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
@@ -65,6 +66,7 @@ $csBlue: rgb(68, 160, 244);
 #navbar > ul > li:not(:hover) > #onHoverEffect3 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
 #navbar > ul > li:not(:hover) > #onHoverEffect4 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
 #navbar > ul > li:not(:hover) > #onHoverEffect5 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+*/
 
 #navbar > ul > li 
 {
@@ -102,7 +104,14 @@ $csBlue: rgb(68, 160, 244);
 
         left: 175px;
         top: 0px;
+
+        transition: transform 500ms;
     }
+
+    :hover + .onHoverEffect, .onHoverEffect:hover 
+    {
+        transform: translate(-175px, 0);
+    } 
 
     #onHoverEffect1 { background-color: $csGray; }
     #onHoverEffect2 { background-color: $csBlue; }

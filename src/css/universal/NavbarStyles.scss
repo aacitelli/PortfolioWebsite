@@ -35,6 +35,12 @@ $csBlue: rgb(68, 160, 244);
 #navbar > ul > .lighterNavbarButton { background-color: rgb(42, 42, 42); }
 #navbar > ul > .darkerNavbarButton { background-color: rgb(28, 28, 28); }
 
+@keyframes navbarHoverEffect 
+{
+    from { left: 175px; }
+    to { left: 0px; }
+}
+
 #navbar > ul > li 
 {
     padding: 10px 18px;
@@ -45,6 +51,9 @@ $csBlue: rgb(68, 160, 244);
     width: 100%;
 
     color: white;
+
+    // Causes any children with absolute positioning to be positioned relative to THIS div now
+    position: relative;
 
     .fullSizeOfParent 
     {
@@ -62,8 +71,30 @@ $csBlue: rgb(68, 160, 244);
         text-decoration: none;
     }
 
-    overflow: hidden;
+    .onHoverEffect 
+    {
+        width: 175px;
+        height: 100%;
+
+        position: absolute;
+        left: 175px;
+        top: 0px;
+    }
+
+    :hover 
+    {
+        animation-name: navbarHoverEffect;
+        animation-duration: 2s;
+    }
+
+    #onHoverEffect1 { background-color: $csGray; }
+    #onHoverEffect2 { background-color: $csBlue; }
+    #onHoverEffect3 { background-color: $csRed; }
+    #onHoverEffect4 { background-color: $csYellow; }
+    #onHoverEffect5 { background-color: $csGreen; }
 }
+
+
 
 #navbar > div 
 {

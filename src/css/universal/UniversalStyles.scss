@@ -1,4 +1,13 @@
-/* Universal Styles (Applied to Everything) */
+*
+{
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+
+    background-color: #272727;
+    color: white;
+}
 
 /* Applies to 768px and up */
 @media only screen and (min-width: 768px)

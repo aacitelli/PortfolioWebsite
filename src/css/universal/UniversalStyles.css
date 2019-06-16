@@ -1,0 +1,12 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #272727;
+  color: white;
+}
+
+/* Applies to 768px and up */
+/* Applies to 992px and up */
+/* Applies to basically all desktop resolutions */

@@ -1,0 +1,44 @@
+/* Universal Styles (Applied to Everything) */
+#rightContent {
+  position: absolute;
+  left: 175px;
+  top: 0px;
+  width: calc(100% - 175px);
+}
+
+#IntroSection {
+  width: 100%;
+}
+
+#IntroSection div {
+  text-align: left;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 70%;
+  margin-left: 10%;
+  margin-top: 200px;
+}
+
+#IntroSection div h1 {
+  font-size: 4vw;
+  margin-bottom: 20px;
+}
+
+#IntroSection div p {
+  font-size: 2vw;
+  margin-bottom: 20px;
+}
+
+#IntroSection div p strong {
+  font-weight: 500;
+  color: #44a0f4;
+}
+
+#IntroSection div p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Applies to 768px and up */
+/* Applies to 992px and up */
+/* Applies to basically all desktop resolutions */

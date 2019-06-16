@@ -4,8 +4,8 @@ import React from "react";
 // Component Imports
 
 // Style Imports
-import "../css/UniversalStyles.css";
-import "../css/FooterStyles.css";
+import "../../css/universal/UniversalStyles.css";
+import "../../css/universal/FooterStyles.css";
 
 export default function Footer() 
 {

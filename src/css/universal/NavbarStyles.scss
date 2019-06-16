@@ -32,8 +32,8 @@ $csBlue: rgb(68, 160, 244);
 #navbar > ul > #navbarLink5 { border-right: 10px $csGreen solid; }
 
 // Alternating shades of gray for background
-#navbar > ul > .lighterNavbarButton { background-color: rgb(50, 50, 50); }
-#navbar > ul > .darkerNavbarButton { background-color: rgb(30, 30, 30); }
+#navbar > ul > .lighterNavbarButton { background-color: rgb(42, 42, 42); }
+#navbar > ul > .darkerNavbarButton { background-color: rgb(28, 28, 28); }
 
 #navbar > ul > li 
 {
@@ -76,7 +76,7 @@ $csBlue: rgb(68, 160, 244);
     a
     {
         background-color: inherit;
-        
+
         img
         {
             display: inline-block;

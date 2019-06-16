@@ -37,9 +37,20 @@ $csBlue: rgb(68, 160, 244);
 
 @keyframes navbarHoverEffect 
 {
-    from { left: 175px; }
-    to { left: 0px; }
+    0% { left: 175px; }
+    100% { left: 0px; }
 }
+
+// Triggers the animation on hover, basically
+// (I have to do this a weird way because the animation is triggered whenever a DIFFERENT element is hovered over)
+// TODO: Make these stay at the end and not loop back to the beginning when the animation is done
+// TODO: Make these gradually recede when not hovered instead of instantly resetting
+// TODO: Make the text stay in front of the animation (Will probably have to store the text in another div with higher z-index than the animation)
+#navbar > ul > li:hover > #onHoverEffect1 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards; }
+#navbar > ul > li:hover > #onHoverEffect2 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+#navbar > ul > li:hover > #onHoverEffect3 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+#navbar > ul > li:hover > #onHoverEffect4 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+#navbar > ul > li:hover > #onHoverEffect5 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
 
 #navbar > ul > li 
 {
@@ -52,13 +63,7 @@ $csBlue: rgb(68, 160, 244);
 
     // Causes any children with absolute positioning to be positioned relative to THIS div now
     position: relative;
-
-    .fullSizeOfParent 
-    {
-        background-color: inherit;
-        width: 100%;
-        height: 100%;
-    }
+    z-index: 999;
 
     a
     {
@@ -78,7 +83,10 @@ $csBlue: rgb(68, 160, 244);
         width: 175px;
         height: 100%;
 
+        
         position: absolute;
+        z-index: 1000;
+
         left: 175px;
         top: 0px;
     }
@@ -86,7 +94,8 @@ $csBlue: rgb(68, 160, 244);
     :hover 
     {
         animation-name: navbarHoverEffect;
-        animation-duration: 2s;
+        animation-duration: 1s;
+        animation-direction: normal;
     }
 
     #onHoverEffect1 { background-color: $csGray; }
@@ -95,8 +104,6 @@ $csBlue: rgb(68, 160, 244);
     #onHoverEffect4 { background-color: $csYellow; }
     #onHoverEffect5 { background-color: $csGreen; }
 }
-
-
 
 #navbar > div 
 {

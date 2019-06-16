@@ -35,22 +35,36 @@ $csBlue: rgb(68, 160, 244);
 #navbar > ul > .lighterNavbarButton { background-color: rgb(42, 42, 42); }
 #navbar > ul > .darkerNavbarButton { background-color: rgb(28, 28, 28); }
 
+// TODO: Consider making these look more natural (look up bezier curves and see if it's realistic) 
 @keyframes navbarHoverEffect 
 {
     0% { left: 175px; }
     100% { left: 0px; }
 }
 
+@keyframes navbarHoverReturnEffect 
+{
+    0% { left: 0px; }
+    100% { left: 175px; }
+}
+
 // Triggers the animation on hover, basically
 // (I have to do this a weird way because the animation is triggered whenever a DIFFERENT element is hovered over)
-// TODO: Make these stay at the end and not loop back to the beginning when the animation is done
-// TODO: Make these gradually recede when not hovered instead of instantly resetting
+// TODO: Make it so starting and stopping don't start from the beginning or end, but rather from where they're currently at 
 // TODO: Make the text stay in front of the animation (Will probably have to store the text in another div with higher z-index than the animation)
+// TODO: Make it so that when you initially load the page it doesn't start with them all extended (this occurs because you aren't hovering, so it executes the "not hovering" animation
 #navbar > ul > li:hover > #onHoverEffect1 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards; }
 #navbar > ul > li:hover > #onHoverEffect2 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
 #navbar > ul > li:hover > #onHoverEffect3 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
 #navbar > ul > li:hover > #onHoverEffect4 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
 #navbar > ul > li:hover > #onHoverEffect5 { animation-name: navbarHoverEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+
+// Allows the animation to go smoothly back to the beginning instead of instantly resetting
+#navbar > ul > li:not(:hover) > #onHoverEffect1 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: backwards; }
+#navbar > ul > li:not(:hover) > #onHoverEffect2 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards; }
+#navbar > ul > li:not(:hover) > #onHoverEffect3 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+#navbar > ul > li:not(:hover) > #onHoverEffect4 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
+#navbar > ul > li:not(:hover) > #onHoverEffect5 { animation-name: navbarHoverReturnEffect; animation-duration: 1s; animation-fill-mode: forwards;}
 
 #navbar > ul > li 
 {
@@ -82,20 +96,12 @@ $csBlue: rgb(68, 160, 244);
     {
         width: 175px;
         height: 100%;
-
         
         position: absolute;
         z-index: 1000;
 
         left: 175px;
         top: 0px;
-    }
-
-    :hover 
-    {
-        animation-name: navbarHoverEffect;
-        animation-duration: 1s;
-        animation-direction: normal;
     }
 
     #onHoverEffect1 { background-color: $csGray; }

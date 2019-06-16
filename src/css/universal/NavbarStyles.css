@@ -60,6 +60,24 @@
   }
 }
 
+@-webkit-keyframes navbarHoverReturnEffect {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 175px;
+  }
+}
+
+@keyframes navbarHoverReturnEffect {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 175px;
+  }
+}
+
 #navbar > ul > li:hover > #onHoverEffect1 {
   -webkit-animation-name: navbarHoverEffect;
           animation-name: navbarHoverEffect;
@@ -105,6 +123,51 @@
           animation-fill-mode: forwards;
 }
 
+#navbar > ul > li:not(:hover) > #onHoverEffect1 {
+  -webkit-animation-name: navbarHoverReturnEffect;
+          animation-name: navbarHoverReturnEffect;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+#navbar > ul > li:not(:hover) > #onHoverEffect2 {
+  -webkit-animation-name: navbarHoverReturnEffect;
+          animation-name: navbarHoverReturnEffect;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#navbar > ul > li:not(:hover) > #onHoverEffect3 {
+  -webkit-animation-name: navbarHoverReturnEffect;
+          animation-name: navbarHoverReturnEffect;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#navbar > ul > li:not(:hover) > #onHoverEffect4 {
+  -webkit-animation-name: navbarHoverReturnEffect;
+          animation-name: navbarHoverReturnEffect;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+#navbar > ul > li:not(:hover) > #onHoverEffect5 {
+  -webkit-animation-name: navbarHoverReturnEffect;
+          animation-name: navbarHoverReturnEffect;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
 #navbar > ul > li {
   background-color: inherit;
   font-size: 22px;
@@ -131,15 +194,6 @@
   z-index: 1000;
   left: 175px;
   top: 0px;
-}
-
-#navbar > ul > li :hover {
-  -webkit-animation-name: navbarHoverEffect;
-          animation-name: navbarHoverEffect;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
 }
 
 #navbar > ul > li #onHoverEffect1 {

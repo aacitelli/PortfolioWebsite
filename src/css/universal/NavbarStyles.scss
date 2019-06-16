@@ -5,13 +5,6 @@ $csYellow: #FFE400;
 $csGreen: #14A76C;
 $csBlue: rgb(68, 160, 244);
 
-// Color accents on the navbar items 
-.navbarLink1 { border-right: 10px $csBlue solid; padding: 10px 18px; }
-.navbarLink2 { border-right: 10px $csGray solid; padding: 10px 18px; }
-.navbarLink3 { border-right: 10px $csRed solid; padding: 10px 18px; }
-.navbarLink4 { border-right: 10px $csYellow solid; padding: 10px 18px; }
-.navbarLink5 { border-right: 10px $csGreen solid; padding: 10px 18px; }
-
 /* Universal Styles (Applied to Everything) */
 #navbar 
 {
@@ -31,43 +24,67 @@ $csBlue: rgb(68, 160, 244);
     list-style-type: none;
 }
 
+// Color accents on the side of the navbar 
+#navbar > ul > #navbarLink1 { border-right: 10px $csGray solid; }
+#navbar > ul > #navbarLink2 { border-right: 10px $csBlue solid; }
+#navbar > ul > #navbarLink3 { border-right: 10px $csRed solid; }
+#navbar > ul > #navbarLink4 { border-right: 10px $csYellow solid; }
+#navbar > ul > #navbarLink5 { border-right: 10px $csGreen solid; }
+
+// Alternating shades of gray for background
+#navbar > ul > .lighterNavbarButton { background-color: rgb(50, 50, 50); }
+#navbar > ul > .darkerNavbarButton { background-color: rgb(30, 30, 30); }
+
 #navbar > ul > li 
 {
-    background-color: inherit;
+    padding: 10px 18px;
 
+    background-color: inherit;
     font-size: 22px;
 
-    a
+    width: 100%;
+
+    color: white;
+
+    .fullSizeOfParent 
     {
         background-color: inherit;
-        color: white;
-        text-decoration: none;
-
         width: 100%;
         height: 100%;
     }
 
-    a:hover 
+    a
     {
-        // Intermediate steps in the color change animation
-        // TODO: Change this animation to look a lot more satisfying somehow
-        @keyframes navbarColorChange
-        {
-            to { color: rgb(68, 160, 244); }
-        }
-
-        animation-name: navbarColorChange;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-    }
-
-    .navbarSeparator 
-    {
-        height: 5px;
         width: 100%;
 
-        background-color: rgb(50, 50, 50);
+        background-color: inherit;
+        color: inherit;
+        text-decoration: none;
     }
+
+    overflow: hidden;
+}
+
+#navbar > div 
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    background-color: inherit;
+
+    img
+    {
+        display: inline-block;
+        background-color: inherit;
+
+        margin-right: 10px;
+
+        :last-of-type
+        {
+            margin-right: 0px;
+        }
+    } 
 }
  
 /* Applies to 768px and up */

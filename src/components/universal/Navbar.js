@@ -13,6 +13,7 @@ export default function Navbar()
     return (
         <nav id="navbar">
             <ul>
+                { /* TODO: MAKE THE ENTIRE SECTION CLICKABLE AND NOT JUST THE TEXT */ }
                 <li className="navbarLink1"><Link to="/">About</Link></li>
                 <li><div className="navbarSeparator"></div></li>
                 <li className="navbarLink2"><Link to="/skills">Skills</Link></li>

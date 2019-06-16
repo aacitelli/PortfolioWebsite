@@ -1,9 +1,9 @@
 /* Universal Styles (Applied to Everything) */
 #rightContent {
-  position: static;
-  left: 150px;
+  position: absolute;
+  left: 175px;
   top: 0px;
-  width: calc(100% - 150px);
+  width: calc(100% - 175px);
 }
 
 #IntroSection {
@@ -15,8 +15,9 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  max-width: 80%;
+  max-width: 70%;
   margin-left: 10%;
+  margin-top: 200px;
 }
 
 #IntroSection div h1 {

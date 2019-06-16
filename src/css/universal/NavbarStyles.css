@@ -4,11 +4,11 @@
   margin: 0;
   width: 100%;
   text-align: right;
+  background-color: black;
 }
 
 #navbar > ul {
-  margin-top: 20px;
-  margin-right: 20px;
+  margin: 0 auto;
 }
 
 #navbar > ul > li {

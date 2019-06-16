@@ -43,8 +43,6 @@ $csBlue: rgb(68, 160, 244);
 
 #navbar > ul > li 
 {
-    padding: 10px 18px;
-
     background-color: inherit;
     font-size: 22px;
 
@@ -64,7 +62,11 @@ $csBlue: rgb(68, 160, 244);
 
     a
     {
+        display: block;
         width: 100%;
+        height: 100%;
+
+        padding: 10px 18px;
 
         background-color: inherit;
         color: inherit;

@@ -19,37 +19,27 @@ export default function Navbar()
             <ul>
 
                 <li id="navbarLink1" className="lighterNavbarButton">
-                    <div class="fullSizeOfParent">
                         <Link to="/">About</Link>
-                    </div>
                     <div id="onHoverEffect1" className="onHoverEffect"></div>  
                 </li>
 
                 <li id="navbarLink2" className="darkerNavbarButton">
-                    <div className="fullSizeOfParent">
                         <Link to="/skills">Skills</Link>
-                    </div>
                     <div id="onHoverEffect2" className="onHoverEffect"></div>  
                 </li>
 
-                <li id="navbarLink3" className="lighterNavbarButton">   
-                    <div className="fullSizeOfParent">
+                <li id="navbarLink3" className="lighterNavbarButton"> 
                         <Link to="/projects">Projects</Link>
-                    </div> 
                     <div id="onHoverEffect3" className="onHoverEffect"></div>  
                 </li>
 
                 <li id="navbarLink4" className="darkerNavbarButton">
-                    <div className="fullSizeOfParent">
                         <Link to="/blog">Blog</Link>
-                    </div>  
                     <div id="onHoverEffect4" className="onHoverEffect"></div>  
                 </li>
 
                 <li id="navbarLink5" className="lighterNavbarButton">
-                    <div className="fullSizeOfParent">
                         <Link to="/contact">Contact</Link>
-                    </div>
                     <div id="onHoverEffect5" className="onHoverEffect"></div>  
                 </li>
 

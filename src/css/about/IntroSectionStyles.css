@@ -1,8 +1,8 @@
 /* Universal Styles (Applied to Everything) */
 #rightContent {
-  position: absolute;
+  position: static;
   left: 150px;
-  top: 0;
+  top: 0px;
   width: calc(100% - 150px);
 }
 

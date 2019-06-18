@@ -46,10 +46,13 @@ $csBlue: rgb(68, 160, 244);
 
     // Causes any children with absolute positioning to be positioned relative to THIS div now
     position: relative;
-    z-index: 999;
 
     a
     {
+
+        position: relative; 
+        z-index: 2;
+
         display: block;
         width: 100%;
         height: 100%;
@@ -59,15 +62,20 @@ $csBlue: rgb(68, 160, 244);
         background-color: inherit;
         color: inherit;
         text-decoration: none;
+
+        background-color: rgba(255, 0, 0, 0) !important;
     }
 
     .onHoverEffect 
     {
+        position: relative;
+        z-index: 1;
+
         width: 175px;
         height: 100%;
         
         position: absolute;
-        z-index: 1000;
+        z-index: 1;
 
         left: 175px;
         top: 0px;
@@ -75,7 +83,7 @@ $csBlue: rgb(68, 160, 244);
         transition: transform 500ms;
     }
 
-    :hover + .onHoverEffect, .onHoverEffect:hover 
+    :hover + .onHoverEffect, .onHoverEffect:hover, :hover + a 
     {
         transform: translate(-175px, 0);
     } 

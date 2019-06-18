@@ -48,10 +48,11 @@
   width: 100%;
   color: white;
   position: relative;
-  z-index: 999;
 }
 
 #navbar > ul > li a {
+  position: relative;
+  z-index: 2;
   display: block;
   width: 100%;
   height: 100%;
@@ -59,13 +60,16 @@
   background-color: inherit;
   color: inherit;
   text-decoration: none;
+  background-color: rgba(255, 0, 0, 0) !important;
 }
 
 #navbar > ul > li .onHoverEffect {
+  position: relative;
+  z-index: 1;
   width: 175px;
   height: 100%;
   position: absolute;
-  z-index: 1000;
+  z-index: 1;
   left: 175px;
   top: 0px;
   -webkit-transition: -webkit-transform 500ms;
@@ -74,7 +78,7 @@
   transition: transform 500ms, -webkit-transform 500ms;
 }
 
-#navbar > ul > li :hover + .onHoverEffect, #navbar > ul > li .onHoverEffect:hover {
+#navbar > ul > li :hover + .onHoverEffect, #navbar > ul > li .onHoverEffect:hover, #navbar > ul > li :hover + a {
   -webkit-transform: translate(-175px, 0);
           transform: translate(-175px, 0);
 }

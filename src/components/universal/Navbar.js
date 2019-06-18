@@ -34,12 +34,12 @@ export default function Navbar()
                 </li>
 
                 <li id="navbarLink4" className="darkerNavbarButton">
-                        <Link to="/blog">Blog</Link>
+                    <Link to="/blog">Blog</Link>
                     <div id="onHoverEffect4" className="onHoverEffect"></div>  
                 </li>
 
                 <li id="navbarLink5" className="lighterNavbarButton">
-                        <Link to="/contact">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                     <div id="onHoverEffect5" className="onHoverEffect"></div>  
                 </li>
 

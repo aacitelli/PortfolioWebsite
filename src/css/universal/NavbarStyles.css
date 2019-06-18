@@ -27,7 +27,7 @@
 }
 
 #navbar > ul > #navbarLink4 {
-  border-right: 10px #FFE400 solid;
+  border-right: 10px #DDC200 solid;
 }
 
 #navbar > ul > #navbarLink5 {
@@ -51,6 +51,7 @@
 }
 
 #navbar > ul > li a {
+  text-shadow: 1px 1px 2px black;
   position: relative;
   z-index: 2;
   display: block;
@@ -96,7 +97,7 @@
 }
 
 #navbar > ul > li #onHoverEffect4 {
-  background-color: #FFE400;
+  background-color: #DDC200;
 }
 
 #navbar > ul > li #onHoverEffect5 {

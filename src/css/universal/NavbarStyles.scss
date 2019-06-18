@@ -1,7 +1,7 @@
 $csBlack: #272727;
 $csGray: #747474;
 $csRed: #FF652F;
-$csYellow: #FFE400;
+$csYellow: #DDC200;
 $csGreen: #14A76C;
 $csBlue: rgb(68, 160, 244);
 
@@ -49,7 +49,8 @@ $csBlue: rgb(68, 160, 244);
 
     a
     {
-
+        text-shadow: 1px 1px 2px black;
+        
         position: relative; 
         z-index: 2;
 

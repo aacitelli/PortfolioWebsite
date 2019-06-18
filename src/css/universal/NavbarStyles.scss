@@ -50,7 +50,7 @@ $csBlue: rgb(68, 160, 244);
     a
     {
         text-shadow: 1px 1px 2px black;
-        
+
         position: relative; 
         z-index: 2;
 
@@ -69,9 +69,6 @@ $csBlue: rgb(68, 160, 244);
 
     .onHoverEffect 
     {
-        position: relative;
-        z-index: 1;
-
         width: 175px;
         height: 100%;
         
@@ -81,7 +78,7 @@ $csBlue: rgb(68, 160, 244);
         left: 175px;
         top: 0px;
 
-        transition: transform 500ms;
+        transition: transform 300ms;
     }
 
     :hover + .onHoverEffect, .onHoverEffect:hover, :hover + a 

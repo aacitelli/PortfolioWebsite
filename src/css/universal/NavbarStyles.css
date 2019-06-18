@@ -65,18 +65,16 @@
 }
 
 #navbar > ul > li .onHoverEffect {
-  position: relative;
-  z-index: 1;
   width: 175px;
   height: 100%;
   position: absolute;
   z-index: 1;
   left: 175px;
   top: 0px;
-  -webkit-transition: -webkit-transform 500ms;
-  transition: -webkit-transform 500ms;
-  transition: transform 500ms;
-  transition: transform 500ms, -webkit-transform 500ms;
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
 }
 
 #navbar > ul > li :hover + .onHoverEffect, #navbar > ul > li .onHoverEffect:hover, #navbar > ul > li :hover + a {

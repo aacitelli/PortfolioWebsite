@@ -19,7 +19,7 @@ export default function Navbar()
             <ul>
 
                 <li id="navbarLink1" className="lighterNavbarButton">
-                        <Link to="/">About</Link>
+                        <Link to="/">Summary</Link>
                     <div id="onHoverEffect1" className="onHoverEffect"></div>  
                 </li>
 

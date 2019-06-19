@@ -96,28 +96,46 @@ $csBlue: rgb(68, 160, 244);
 #navbar > div 
 {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 5px;
+    right: 0px;
 
     background-color: inherit;
     
-    a
+    > div 
     {
+        text-align: right;
         background-color: inherit;
+        margin-top: 10px;
 
-        img
+        p 
         {
             display: inline-block;
+
             background-color: inherit;
+            font-size: 12px;
+
+            margin-right: 10px;
+        }
+        
+        a
+        {
+            background-color: inherit;
+            display: inline-block;
 
             margin-right: 10px;
 
-            :last-of-type
+            img
             {
-                margin-right: 0px;
-            }
-        } 
-    }
+                display: inline-block;
+                background-color: inherit;
+
+                :last-of-type
+                {
+                    margin-right: 0px;
+                }
+            } 
+        }
+    }    
 }
  
 /* Applies to 768px and up */

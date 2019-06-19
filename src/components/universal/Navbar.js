@@ -9,8 +9,9 @@ import "../../css/universal/UniversalStyles.css";
 import "../../css/universal/NavbarStyles.css";
 
 // Image Imports
-import resume from "../../../static/materialicons/resume.svg";
-import github from "../../../static/materialicons/github.svg";
+import resumeIcon from "../../../static/materialicons/resume.svg";
+import githubIcon from "../../../static/materialicons/github.svg";
+import emailIcon from "../../../static/materialicons/email.svg";
 
 export default function Navbar() 
 {
@@ -47,13 +48,22 @@ export default function Navbar()
 
             <div>
 
-                <a href="https://drive.google.com/open?id=1nlJzHsSkNTlFM0Xu_uAItzb8M-6_duzt">
-                    <img alt="Resume Logo" width="35px" height="35px" src={resume} />
-                </a>
+                <div>
 
-                <a href="https://github.com/aacitelli">
-                    <img alt="GitHub Logo" width="35px" height="35px" src={github}></img>
-                </a>
+                    <a href="https://drive.google.com/open?id=1nlJzHsSkNTlFM0Xu_uAItzb8M-6_duzt">
+                        Resume
+                    </a>
+                    <p>hello@andenacitelli.com</p>
+
+                </div>
+
+                <div>
+
+                    <a href="https://github.com/aacitelli">
+                        <img alt="GitHub Logo" width="35px" height="35px" src={githubIcon} />
+                    </a>
+
+                </div>
 
             </div>
 

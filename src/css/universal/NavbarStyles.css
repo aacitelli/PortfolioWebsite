@@ -104,22 +104,36 @@
 
 #navbar > div {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: 5px;
+  right: 0px;
   background-color: inherit;
 }
 
-#navbar > div a {
+#navbar > div > div {
+  text-align: right;
   background-color: inherit;
+  margin-top: 10px;
 }
 
-#navbar > div a img {
+#navbar > div > div p {
   display: inline-block;
   background-color: inherit;
+  font-size: 12px;
   margin-right: 10px;
 }
 
-#navbar > div a img :last-of-type {
+#navbar > div > div a {
+  background-color: inherit;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#navbar > div > div a img {
+  display: inline-block;
+  background-color: inherit;
+}
+
+#navbar > div > div a img :last-of-type {
   margin-right: 0px;
 }
 

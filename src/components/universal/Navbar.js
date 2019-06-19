@@ -9,9 +9,8 @@ import "../../css/universal/UniversalStyles.css";
 import "../../css/universal/NavbarStyles.css";
 
 // Image Imports
-import resumeIcon from "../../../static/materialicons/resume.svg";
 import githubIcon from "../../../static/materialicons/github.svg";
-import emailIcon from "../../../static/materialicons/email.svg";
+import linkedInIcon from "../../../static/materialicons/linkedin.svg";
 
 export default function Navbar() 
 {
@@ -50,14 +49,9 @@ export default function Navbar()
 
                 <div>
 
-                    <a href="https://drive.google.com/open?id=1nlJzHsSkNTlFM0Xu_uAItzb8M-6_duzt">
-                        Resume
+                    <a href="https://linkedin.com/in/anden-acitelli">
+                        <img alt="LinkedIn Logo" width="35px" height="35px" src={linkedInIcon} />
                     </a>
-                    <p>hello@andenacitelli.com</p>
-
-                </div>
-
-                <div>
 
                     <a href="https://github.com/aacitelli">
                         <img alt="GitHub Logo" width="35px" height="35px" src={githubIcon} />

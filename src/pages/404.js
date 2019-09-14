@@ -5,16 +5,14 @@ import React from "react";
 
 // Universal Component Imports 
 import Navbar from "../components/universal/Navbar";
-import Footer from "../components/universal/Footer";
 
-// Page-Specific Component Imports 
+// Page-Specific Component Imports
 
 export default () => {
     return (
         <div id="siteContainer">
             <Navbar />
-            Skills Page Placeholder
-            <Footer />
+            How did you get here? Go away! 404!
         </div>
     )
 

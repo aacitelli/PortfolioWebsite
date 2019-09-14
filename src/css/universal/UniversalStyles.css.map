@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CACJ;EACI,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EAET,UAAU,EAAE,UAAU;CACzB",
+    "sources": [
+        "UniversalStyles.scss"
+    ],
+    "names": [],
+    "file": "UniversalStyles.css"
+}

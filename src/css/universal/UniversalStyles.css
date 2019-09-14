@@ -1,12 +1,7 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+body {
   padding: 0;
   margin: 0;
-  background-color: #272727;
-  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-
-/* Applies to 768px and up */
-/* Applies to 992px and up */
-/* Applies to basically all desktop resolutions */
+/*# sourceMappingURL=UniversalStyles.css.map */

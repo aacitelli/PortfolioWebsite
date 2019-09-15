@@ -4,8 +4,8 @@ import React from "react";
 // Component Imports
 
 // Style Imports
-import "../../css/universal/UniversalStyles.css";
-import "../../css/about/ContactSectionStyles.css";
+import "../../css/UniversalStyles.css";
+import "./ContactSectionStyles.css";
 
 export default function ContactSection()
 {

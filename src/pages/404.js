@@ -4,7 +4,7 @@ import React from "react";
 // Style Imports
 
 // Universal Component Imports 
-import Navbar from "../components/universal/Navbar";
+import Navbar from "../components/navbar/Navbar";
 
 // Page-Specific Component Imports
 

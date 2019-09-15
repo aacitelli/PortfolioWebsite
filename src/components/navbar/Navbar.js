@@ -4,8 +4,8 @@ import React from "react";
 // Component Imports
 
 // Style Imports
-import "../../css/universal/UniversalStyles.css";
-import "../../css/universal/NavbarStyles.css";
+import "../../css/UniversalStyles.css";
+import "./NavbarStyles.css";
 
 export default function Navbar() 
 {

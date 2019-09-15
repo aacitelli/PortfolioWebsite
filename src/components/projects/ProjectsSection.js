@@ -4,8 +4,8 @@ import React from "react";
 // Component Imports
 
 // Style Imports
-import "../../css/universal/UniversalStyles.css";
-import "../../css/about/ProjectsSectionStyles.css";
+import "../../css/UniversalStyles.css";
+import "./ProjectsSectionStyles.css";
 
 export default function ProjectsSection()
 {

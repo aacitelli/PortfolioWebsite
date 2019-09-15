@@ -4,8 +4,8 @@ import React from "react";
 // Component Imports
 
 // Style Imports
-import "../../css/universal/UniversalStyles.css";
-import "../../css/about/IntroSectionStyles.css";
+import "../../css/UniversalStyles.css";
+import "./IntroSectionStyles.css";
 
 export default function IntroSection()
 {

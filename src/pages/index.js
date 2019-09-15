@@ -3,12 +3,12 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 // Universal Component Imports 
-import Navbar from "../components/universal/Navbar";
+import Navbar from "../components/navbar/Navbar";
 
 // Page-Specific Component Imports
-import IntroSection from "../components/about/IntroSection";
-import ProjectsSection from "../components/about/ProjectsSection";
-import ContactSection from "../components/about/ContactSection";
+import IntroSection from "../components/intro/IntroSection";
+import ProjectsSection from "../components/projects/ProjectsSection";
+import ContactSection from "../components/contact/ContactSection";
 
 // Style Imports
 export default () => 

@@ -1,14 +1,14 @@
 #IntroSection {
-  width: calc(100% - 30px);
+  width: calc(100% - 50px);
+  margin: 20% auto 15% auto;
 }
 
-h1 {
-  font-size: 72px;
-  margin-bottom: 0;
+#IntroSection h1 {
+  font-size: 36px;
 }
 
-p {
-  font-size: 22px;
+#IntroSection p {
+  font-size: 16px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -16,6 +16,13 @@ p {
     margin: 10% auto 20% auto;
     width: 80%;
     max-width: 1000px;
+  }
+  #IntroSection h1 {
+    font-size: 72px;
+    margin-bottom: 0;
+  }
+  #IntroSection p {
+    font-size: 22px;
   }
 }
 /*# sourceMappingURL=IntroSectionStyles.css.map */

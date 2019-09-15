@@ -17,7 +17,7 @@ export default () =>
         <div id="siteContainer">
             <Helmet>
                 <meta charSet="utf-8"></meta>
-                <title>Anden Acitelli - Full-Stack Web and Software Developer</title>
+                <title>Anden Acitelli - Full-Stack Web Developer and Software Developer</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             </Helmet>
             

@@ -1,7 +1,25 @@
+@font-face 
+{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+}
+
 body 
 {
     padding: 0;
     margin: 0;
 
     box-sizing: border-box;
+}
+
+*
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.redText
+{
+    color: #BD0000;
 }

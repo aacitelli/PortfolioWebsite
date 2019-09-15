@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=IntroSectionStyles.css.map */
+#IntroSection {
+  width: calc(100% - 30px);
+}
+
+h1 {
+  font-size: 72px;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 22px;
+}
+
+@media only screen and (min-width: 768px) {
+  #IntroSection {
+    margin: 10% auto 20% auto;
+    width: 80%;
+    max-width: 1000px;
+  }
+}
+/*# sourceMappingURL=IntroSectionStyles.css.map */

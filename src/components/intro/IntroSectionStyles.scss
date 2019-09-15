@@ -18,7 +18,8 @@
 {
     #IntroSection 
     {
-        margin: 10% auto 20% auto;
+        // The 12.5% is just a magic number, no special significance
+        margin: 10% auto 12.5% auto;
 
         width: 80%;
         max-width: 1000px;

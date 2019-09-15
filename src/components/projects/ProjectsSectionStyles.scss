@@ -1,0 +1,27 @@
+#ProjectsSection 
+{
+    text-align: center;
+
+    .boxContainer 
+    {
+        text-align: left;
+    }
+
+    > h1 
+    {
+        font-size: 36px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    #ProjectsSection 
+    {
+        > h1 
+        {
+            font-size: 48px;
+        }
+    }
+}

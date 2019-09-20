@@ -5,6 +5,27 @@
     .boxContainer 
     {
         text-align: left;
+
+        .boxContainerPosition
+        {
+            font-style: italic;
+
+            margin-bottom: 0;
+            padding-bottom: 0;
+
+            font-size: 18px;
+        }
+
+        .boxContainerLanguages
+        {
+            margin-top: 0;
+            padding-top: 5px;
+            padding-bottom: 0;
+            margin-bottom: 0;   
+
+            font-weight: 700;
+            color: #BD0000;
+        }
     }
 
     > h1 

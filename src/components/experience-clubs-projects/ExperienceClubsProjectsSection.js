@@ -46,9 +46,9 @@ export default function ExperienceClubsProjectsSection()
             <h1 className="redText">Projects</h1>
             
             <BoxContainer 
-                title="Robot Project (First-Year Honors Engineering Project)" 
+                title="Robot Project" 
                 languages="C++, QT Creator"
-                description1="During the Spring 2019 semester, I worked in a team of four to design, manufacture, and program an autonomous robot to navigate an obstacle course and complete tasks."                
+                description1="During the Spring 2019 semester, I worked in a team of four to design, manufacture, and program an autonomous robot to navigate an obstacle course and complete tasks. This is the First-Year Honors Engineering project."                
                 description2="I was responsible for writing all of the code, and implemented an intelligent \, GPS-based navigation system, task code, and failure mitigation behavior, all in C++."
             />
 

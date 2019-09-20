@@ -26,6 +26,10 @@
     line-height: 75px;
   }
   nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  nav ul li #resumeNavbarLink {
     color: #BD0000;
     text-decoration: none;
     font-weight: 600;

@@ -13,8 +13,8 @@ export default function Navbar()
         <nav>
             <h1>Anden Acitelli</h1>
             <ul>
-                <li>Projects</li>
-                <li>Contact & Links</li>
+                <li><a href="#ProjectsSection">Projects</a></li>
+                <li><a href="#ContactSection">Contact & Links</a></li>
                 <li><a id="resumeNavbarLink" href="https://drive.google.com/file/d/1nlJzHsSkNTlFM0Xu_uAItzb8M-6_duzt/view?usp=sharing">Résumé</a></li>
             </ul>
         </nav>

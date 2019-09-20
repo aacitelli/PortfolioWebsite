@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,gBAAgB,CAChB;EACI,UAAU,EAAE,MAAM;CAarB;;AAfD,AAII,gBAJY,CAIZ,aAAa,CACb;EACI,UAAU,EAAE,IAAI;CACnB;;AAPL,AASI,gBATY,GASV,EAAE,CACJ;EACI,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,IAAI;CACnB;;AAGL,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EAEpC,AAEI,gBAFY,GAEV,EAAE,CACJ;IACI,SAAS,EAAE,IAAI;GAClB",
-    "sources": [
-        "ProjectsSectionStyles.scss"
-    ],
-    "names": [],
-    "file": "ProjectsSectionStyles.css"
-}

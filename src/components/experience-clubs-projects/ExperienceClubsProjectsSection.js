@@ -22,7 +22,7 @@ export default function ExperienceClubsProjectsSection()
             <BoxContainer 
                 title="Pennsylvania Department of Transportation" 
                 position="Engineering, Scientific, and Technical Intern"
-                languages="React, HTML, CSS, SCSS"
+                languages="Microsoft Excel, AutoHotkey"
                 description1="At this internship, I worked with Excel to organize data, utilizing extensive conditional formatting, intelligent formulas, and complex boolean logic to do in-depth cost analysis, optimize a filing system, and speed up data lookup on frequently used sheets."
                 description2="I also ended up using AutoHotkey and JavaScript to automate a highly repetitive, regularly done task, cutting completion time by 75% (a benchmarked value)."
             />
@@ -40,7 +40,7 @@ export default function ExperienceClubsProjectsSection()
             <BoxContainer 
                 title="The Underwater Robotics Team" 
                 languages="C++, Python, Linux/Bash, Docker"
-                description1="As part of this club, I co-lead a scrum team of six people, teaching new members C++ and Python (the languages used by the team) and acclimatizing them to our system."
+                description1="As part of this team, I co-lead a scrum team of six people, teaching new members C++ and Python (the languages used by the team) and acclimatizing them to our system."
                 description2="Personally, I've written a driver to read in data from an ultrasonic sensor, using Python to convert sensor output into a usable data stream. I've also written a Bash script that sets up the team's entire development environment and Docker container from a fresh Ubuntu install. We are currently using to set up new members' computers."
             />
 

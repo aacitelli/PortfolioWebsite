@@ -27,6 +27,14 @@ export default function ExperienceClubsProjectsSection()
                 description2="I also ended up using AutoHotkey and JavaScript to automate a highly repetitive, regularly done task, cutting completion time by 75% (a benchmarked value)."
             />
 
+            <BoxContainer 
+                title="The Ohio State Department of Engineering"
+                position="Undergraduate Teaching Assistant"
+                languages="Microsoft Excel, MATLAB"
+                description1="I teach Microsoft Excel and MATLAB to first-year engineering students, simplifying lessons on baseline engineering principles, complex programming concepts, and concise technical writing down to a more easily understandable and communicable level."
+                description2="I place an emphasis on not just telling my students the answer; I try to guide them to the answer based on things they previously know so that it sticks in their mind more permanently. This helps my own thought process and makes me much better at debugging."
+            />
+
             <h1 className="redText">Clubs & Activities</h1>
 
             <BoxContainer 

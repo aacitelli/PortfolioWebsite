@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet";
 
 // Universal Component Imports 
 import Navbar from "../components/navbar/Navbar";
-import TylerPic from "../../static/tyler.jpg";
 
 // Page-Specific Component Imports
 import IntroSection from "../components/intro/IntroSection";

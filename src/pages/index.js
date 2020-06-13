@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 
 // Universal Component Imports 
 import Navbar from "../components/navbar/Navbar";
+import TylerPic from "../../static/tyler.jpg";
 
 // Page-Specific Component Imports
 import IntroSection from "../components/intro/IntroSection";
@@ -25,6 +26,8 @@ export default () =>
             <IntroSection />
             <ExperienceClubsProjectsSection />
             <ContactSection />
+            <h1>A Happy Customer who apparently wants to do penetration on my website:</h1>
+            <img src={TylerPic} alt="" />
         </div>   
     )
      

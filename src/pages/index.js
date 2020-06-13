@@ -26,8 +26,6 @@ export default () =>
             <IntroSection />
             <ExperienceClubsProjectsSection />
             <ContactSection />
-            <h1>A Happy Customer who apparently wants to do penetration on my website:</h1>
-            <img src={TylerPic} alt="" />
         </div>   
     )
      

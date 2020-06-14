@@ -30,7 +30,7 @@ export default function ExperienceClubsProjectsSection()
             <BoxContainer 
                 title="The Ohio State Department of Engineering"
                 position="Undergraduate Teaching Assistant"
-                languages="Microsoft Excel, MATLAB"
+                languages="MATLAB, Microsoft Excel"
                 description1="I teach Microsoft Excel and MATLAB to first-year engineering students, simplifying lessons on baseline engineering principles, complex programming concepts, and concise technical writing down to a more easily understandable and communicable level."
                 description2="I guide students to the answer based on things they previously know, rather than telling them, so that it sticks in their mind more permanently. This pays dividends towards my own thought process and makes me much better at debugging."
             />
@@ -39,7 +39,7 @@ export default function ExperienceClubsProjectsSection()
 
             <BoxContainer 
                 title="The Underwater Robotics Team" 
-                languages="C++, Python, JavaScript, Linux/Bash, Docker"
+                languages="ROS, C++, Python, JavaScript"
                 description1="This team builds, manufactures, and programs an autonomous robot that competes in RoboSub, a competition in the summer. I lead a scrum team on the software team, writing code for the robot, working primarily with C++ and Python."
                 description2="I've personally written a driver to read data from an ultrasonic sensor, using Python to convert sensor output into a data stream usable by our robot. I've also written Bash scripts that set up the team's development environments."
                 description3="My scrum team is currently working on Scylla, an Electron/Python application that streamlines our robot's computer vision training system."

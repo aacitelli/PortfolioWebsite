@@ -20,53 +20,54 @@ export default function ExperienceClubsProjectsSection()
             <h1 className="redText">Experience</h1>
 
             <BoxContainer 
-                title="Pennsylvania Department of Transportation" 
-                position="Engineering, Scientific, and Technical Intern"
-                languages="Microsoft Excel, AutoHotkey"
-                description1="At this internship, I worked with Excel to organize spreadsheets. I used conditional formatting and formulas to do cost analysis, organize the filing system, and shorten the time needed to find projects at a glance."
-                description2="I also used AutoHotkey and JavaScript to automate a highly repetitive, regularly done task (Printing PDFs of finished construction projects for archival purposes). I cut down time by a benchmarked 75%."
+                title="Ohio State Center for Design and Manufacturing Excellence (CDME)"
+                position="Software Engineering Intern"
+                languages="Python, C++, Machine Learning"
+                description1="I am helping improve the Center for Design and Manufacturing Excellence's 3D printing quality assurance process by implementing better methods of planning scan strategy. I am doing a lot of computational geometry and reinforcement learning to develop a data-driven approach for minimizing cost while keeping printing quality high."
             />
 
             <BoxContainer 
                 title="The Ohio State Department of Engineering"
                 position="Undergraduate Teaching Assistant"
                 languages="MATLAB, Microsoft Excel"
-                description1="I teach Microsoft Excel and MATLAB to first-year engineering students, simplifying lessons on baseline engineering principles, complex programming concepts, and concise technical writing down to a more easily understandable and communicable level."
-                description2="I guide students to the answer based on things they previously know, rather than telling them, so that it sticks in their mind more permanently. This pays dividends towards my own thought process and makes me much better at debugging."
+                description1="I teach Microsoft Excel and MATLAB to first-year engineering students, simplifying lessons on baseline engineering principles, complex programming concepts, and concise technical writing down to a more easily understandable and communicable level. I also troubleshoot technical issues, swiftly diagnosing problems and ensuring students learn from the debugging experience."
+            />
+
+            <BoxContainer 
+                title="Pennsylvania Department of Transportation (PennDOT)" 
+                position="Engineering, Scientific, and Technical Intern"
+                languages="Microsoft Excel, AutoHotkey"
+                description1="Worked with Microsoft Excel to organize data, utilizing extensive conditional formatting, intelligent formulas, and complex boolean logic to do in-depth cost analysis, optimize a filing system, and speed up data lookup on frequently used sheets. I also used AutoHotkey and JavaScript to automate a highly repetitive, regularly done task, cutting completion time by a measured 75%."
             />
 
             <h1 className="redText">Clubs & Activities</h1>
 
             <BoxContainer 
-                title="The Underwater Robotics Team" 
+                title="The Ohio State Underwater Robotics Team (http://uwrt.club)" 
+                position="Software Team Lead"
                 languages="ROS, C++, Python, JavaScript"
-                description1="This team builds, manufactures, and programs an autonomous robot that competes in RoboSub, a competition in the summer. I lead a scrum team on the software team, writing code for the robot, working primarily with C++ and Python."
-                description2="I've personally written a driver to read data from an ultrasonic sensor, using Python to convert sensor output into a data stream usable by our robot. I've also written Bash scripts that set up the team's development environments."
-                description3="My scrum team is currently working on Scylla, an Electron/Python application that streamlines our robot's computer vision training system."
+                description1="I am leading the Underwater Robotics Team's Software Team for the 2020-2021 school year. The team, overall, assembles and programs a robot that enters the AUVSI RoboSub competition held annually in San Diego, California, where autonomous underwater robots go through a sequence of tasks. "
+                description2="Specific to my responsibilities, I am managing around 25 people and am the main decision maker for what projects the subteam works on in order to improve the robot's codebase. The robot runs off of ROS (C++, Python) on Ubuntu, but we have projects that. We frequently touch Robotics topics like Machine Learning, Computer Vision, Real-Time Computing, and Controls, but we are sizeable enough as a team that we have touched Shell Scripting, Web Development, and everything in between."
+                description3="My personal past accomplishments with the team, prior to this year, include leading the project team developing an Electron application used to speed up the team's image labeling (to feed into YOLO, a machine learning framework), programming a Python driver to translate an ultrasonic sensor's output to something readable in our system, and writing numerous bash scripts to help set up the team's development environment."
             />
 
             <BoxContainer 
-                title="Code 4 Community" 
-                languages="JavaScript (React), HTML, CSS (SCSS)"
-                description1="This club works on a full-stack web application for the College of Social Work, intended to serve as a resource to students with mental health issues."                
-                description2="I am personally in charge of the Front-End team. In this capacity, I delegate tasks, track overall project goals and progress, and teach JavaScript (React), HTML, CSS, and other front-end technologies to members."
+                title="Code 4 Community (https://code4community.github.io)" 
+                languages="React, JavaScript, HTML, CSS"
+                description1="I am leading the Front-End team for Code 4 Community, a club that focuses on programming projects that give back to the community, during the 2020-2021 school year. Our main project, Mindup, is a web application intended to provide resources and other help to adolescents struggling with mental health issues. We are working with the College of Social Work to deliver an end product they are happy with."                
+                description2="In this role, I am personally responsible for delegating tasks to a team of around five to ten people working on the Front-End of the Mindup application. I am responsible for teaching React, JavaScript, HTML, and CSS. Our main goals this year are to finish the website and implement Redux and a more extensive testing interface through Jest."
+                description3="Previous to this year, I have been personally responsible for switching all of our previous pages to React and designing and implementing several responsive pages with API integration."
             />
 
             <h1 className="redText">Projects</h1>
             
             <BoxContainer 
-                title="Robot Project" 
-                languages="C++, QT Creator"
-                description1="During the Spring 2019 semester, I worked in a team of four to design, manufacture, and program an autonomous robot to navigate an obstacle course and complete tasks. This is the First-Year Honors Engineering project."                
-                description2="I was responsible for writing all of the code, and implemented an intelligent GPS-based navigation system, task code, and failure mitigation behavior in C++."
+                title="Birdwatch" 
+                languages="Godot Game Engine, GDScript, C++"
+                description1="Passion game development project built in the Godot Game Engine using GDScript (a language very similar to Python). I am currently working on the game's terrain generation, which uses a multi-threaded chunk-based generation that goes off of a Perlin / Simplex noise heightmap."                
             />
-
-            <BoxContainer 
-                title="Portfolio Website" 
-                languages="JavaScript (ReactJS), HTML, CSS (SCSS)"
-                description1="The website you're on right now! I maintain this and generally rebuild the design once or twice a year to keep things fresh and build my front-end skills. I place a huge focus on simple, yet appealing design, website speed, and concise information delivery. The website is built mobile-first and is mobile responsive."                
-                description2="Prior to design iterations, I build a mockup in Figma then build from that, simplifying the whole process. I automate deployment with Netlify, which is linked to a GitHub repo."
-            />
+            
+            <p><b>I work on all sorts of stuff not covered here on my GitHub (<a className="redText" href="https://github.com/aacitelli">@aacitelli</a>) - Please check it out!</b></p>
 
         </div>
     )

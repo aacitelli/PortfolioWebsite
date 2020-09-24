@@ -15,7 +15,7 @@
   color: #BD0000;
   margin-bottom: -12.5px;
   margin-top: 0;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -24,7 +24,7 @@
     max-width: 1000px;
   }
   .boxContainer h1 {
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 /*# sourceMappingURL=BoxContainerStyles.css.map */

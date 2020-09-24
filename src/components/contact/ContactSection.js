@@ -25,11 +25,11 @@ export default function ContactSection()
                     </li>
                     <li>
                         <img alt="GitHub Logo" src={GithubIcon}></img>
-                        <a href="https://github.com/aacitelli">github.com/aacitelli</a>
+                        <a href="https://github.com/aacitelli">@aacitelli</a>
                     </li>
                     <li>
                         <img alt="LinkedIn Logo" src={LinkedinIcon}></img>
-                        <a href="https://linkedin.com/in/aacitelli">linkedin.com/in/andenacitelli</a>
+                        <a href="https://linkedin.com/in/anden-acitelli">@anden-acitelli</a>
                     </li>
                 </ul>
             </div>

@@ -10,11 +10,15 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"", 
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "dependencies": {
     "gatsby": "^2.23.3",
-    "gatsby-plugin-react-helmet": "^3.3.4",
+    "gatsby-plugin-offline": "^3.2.28",
+    "gatsby-plugin-preload-fonts": "^1.2.25",
+    "gatsby-plugin-react-helmet": "^3.3.11",
+    "gatsby-plugin-robots-txt": "^1.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1"

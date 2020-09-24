@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', 'Roboto', 'RobotoDraft', 'Helvetica', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   src: url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
@@ -13,7 +13,7 @@ body {
 }
 
 * {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", "Roboto", "RobotoDraft", "Helvetica", "Arial", sans-serif;
 }
 
 .redText {

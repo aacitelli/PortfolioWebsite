@@ -1,48 +1,26 @@
-const {
-NODE_ENV,
-URL: NETLIFY_SITE_URL = 'https://www.example.com',
-DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
-CONTEXT: NETLIFY_ENV = NODE_ENV,
-} = process.env
-const isNetlifyProduction = NETLIFY_ENV === 'production'
-const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
 module.exports = 
 {
     siteMetadata: {
-        siteURL: "https://andenacitelli.com",
+        title: `Anden Acitelli - Software Engineer, Full-Stack Web Developer`,
+        description: `Hi! I'm Anden Acitelli, a student at The Ohio State University currently studying Computer Science and Engineering. I have skills in a wide variety of computer science disciplines, including software engineering and full-stack web development, and am currently looking for a Summer 2021 internship.`,
+        author: `Anden Acitelli (@aacitelli on GitHub)`,
+        siteUrl: "https://andenacitelli.com",
     },
     plugins: [
-
         "gatsby-plugin-preload-fonts",
         `gatsby-plugin-react-helmet`, 
-
         {
             resolve: `gatsby-plugin-offline`,
             options: {
                 precachePages: [`/`],
             }
-        },     
-
+        },  
         {
             resolve: 'gatsby-plugin-robots-txt',
             options: {
-                resolveEnv: () => NETLIFY_ENV,
-                env: {
-                    production: {
-                        policy: [{ userAgent: '*' }],
-                    },
-                    'branch-deploy': {
-                        policy: [{ userAgent: '*', disallow: ['/'] }],
-                        sitemap: null,
-                        host: null,
-                    },
-                    'deploy-preview': {
-                        policy: [{ userAgent: '*', disallow: ['/'] }],
-                        sitemap: null,
-                        host: null,
-                    },
-                },
-            },
-        },
+              host: 'https://andenacitelli.com',
+              policy: [{ userAgent: '*', allow: '/' }]
+            }
+        }
     ],
 }

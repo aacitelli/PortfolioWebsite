@@ -4,8 +4,8 @@ import { Helmet } from "react-helmet";
 
 // Page-Specific Component Imports
 import IntroSection from "../components/intro/IntroSection";
-import ExperienceClubsProjectsSection from "../components/experience-clubs-projects/ExperienceClubsProjectsSection";
-import ContactSection from "../components/contact/ContactSection";
+// import ExperienceClubsProjectsSection from "../components/experience-clubs-projects/ExperienceClubsProjectsSection";
+// import ContactSection from "../components/contact/ContactSection";
 
 // Style Imports
 export default () => 
@@ -20,8 +20,6 @@ export default () =>
             </Helmet>
             
             <IntroSection />
-            <ExperienceClubsProjectsSection />
-            <ContactSection />
         </div>   
     )
      

@@ -809,6 +809,17 @@ section {
   color: #fff;
 }
 
+/* Only apply padding to the bottom if they aren't side-by-side */
+.contact .info .email p, .contact .info .phone p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+@media only screen and (max-width: 992px) {
+    .contact .info .email p {
+        padding-bottom: 10px;
+    }
+}
+
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
